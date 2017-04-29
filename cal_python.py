@@ -13,7 +13,10 @@ class calculator:
     def mult(self,x,y):
         return x*y
 
+    def div(self,x,y):
+        return x/y
 cal=calculator()
 print(cal.add(2,3))
 print(cal.sub(2,3))
 print(cal.mult(2,3))
+print(cal.div(2,3))
